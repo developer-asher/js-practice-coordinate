@@ -1,0 +1,44 @@
+@charset 'utf-8';
+
+:root {
+  --font-size: 14px;
+  --font-color: #f1f1f1;
+  --bg-color: #333;
+  --line-color: #f1f1f1;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-size: var(--font-size);
+  color: var(--font-color);
+  background-color: var(--bg-color);
+}
+
+.target {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.horizontal,
+.vertical {
+  position: absolute;
+  background-color: var(--line-color);
+}
+.horizontal {
+  width: 100%;
+  height: 1px;
+  top: 50%;
+}
+.vertical {
+  width: 1px;
+  height: 100vh;
+  left: 50%;
+}
+.txt_coordinate {
+  position: absolute;
+  font-size: 20px;
+  transform: translate(15px, 15px);
+}
