@@ -1,0 +1,36 @@
+@charset 'utf-8';
+
+:root {
+  --font-size: 14px;
+  --font-color: #f1f1f1;
+  --bg-color: #333;
+  --base-size: 50px;
+}
+
+/* common */
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-size: var(--font-size);
+  color: var(--font-color);
+  background-color: var(--bg-color);
+}
+
+.container {
+  text-align: center;
+}
+
+.btn_find {
+  margin-bottom: 15px;
+  border: none;
+  padding: 10px;
+  background-color: salmon;
+  color: var(--font-color);
+  font-size: calc(var(--font-size) * 1.5);
+  cursor: pointer;
+  outline: none;
+}
